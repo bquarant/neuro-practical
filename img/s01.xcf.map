@@ -1,0 +1,17 @@
+<img src="s01.xcf" width="834" height="612" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:Brian Quaranto -->
+<area shape="poly" coords="395,123,398,108,407,98,417,97,426,88,437,94,433,106,441,120,443,126,433,140,418,155,399,173,394,165,395,140,396,113" alt="nucleus_gracilis"  nohref="nohref" />
+<area shape="poly" coords="455,177,461,167,474,161,485,161,496,168,501,173,506,179,502,195,489,209,476,219,458,217,451,206,449,189,450,185" alt="nucleus_cuneatus"  nohref="nohref" />
+<area shape="poly" coords="564,213,588,201,633,200,656,235,655,250,648,254,656,255,667,269,653,286,619,296,615,294,622,285,627,278,627,273,628,268,624,262,625,251,627,246,637,241,635,235,635,226,621,235,617,226,603,233,593,232,599,228,607,212,589,221,574,230,565,232,561,225,563,217" alt="spinal_trigeminal_nucleus"  nohref="nohref" />
+<area shape="poly" coords="556,420,620,450,654,377,591,348" alt="ALS"  nohref="nohref" />
+<area shape="poly" coords="210,499,271,429,296,412,317,369,324,345,364,315,390,308,429,310,442,324,474,393,493,446,521,471,578,512,581,526,559,553,543,567,529,571,522,582,492,596,477,600,456,608,415,602,398,564,378,555,365,558,351,574,341,584,320,587,264,580,233,555,207,505" alt="pyramidal_decussation"  nohref="nohref" />
+<area shape="poly" coords="108,295,140,299,133,255,139,236,156,210,180,197,211,198,180,173,155,191,135,211,113,250,112,296,112,294" alt="spinal_trigeminal_tract"  nohref="nohref" />
+<area shape="poly" coords="182,175,196,145,277,95,363,208,327,263,309,250,269,266,232,220,187,174,184,171" alt="fasciculus_cuneatus"  nohref="nohref" />
+<area shape="poly" coords="291,100,287,89,312,71,350,68,380,84,380,201,370,211,366,211" alt="fasciculus_gracilis"  nohref="nohref" />
+</map>
