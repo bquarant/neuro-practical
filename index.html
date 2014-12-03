@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>neuro practical /</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.maphilight.js"></script>
+
+    <script type="text/javascript">$(function() {
+        $('.slide1').maphilight();
+
+        $('#nucleus_gracilis_link').mouseover(function(e) {
+            $('#nucleus_gracilis').mouseover();
+        }).mouseout(function(e) {
+            $('#nucleus_gracilis').mouseout();
+        }).click(function(e) { e.preventDefault(); });
+
+        $('#nucleus_cuneatus_link').mouseover(function(e) {
+            $('#nucleus_cuneatus').mouseover();
+        }).mouseout(function(e) {
+            $('#nucleus_cuneatus').mouseout();
+        }).click(function(e) { e.preventDefault(); });
+
+        $('#spinal_trigeminal_nucleus_link').mouseover(function(e) {
+            $('#spinal_trigeminal_nucleus').mouseover();
+        }).mouseout(function(e) {
+            $('#spinal_trigeminal_nucleus').mouseout();
+        }).click(function(e) { e.preventDefault(); });
+
+        $('#als_link').mouseover(function(e) {
+            $('#als').mouseover();
+        }).mouseout(function(e) {
+            $('#als').mouseout();
+        }).click(function(e) { e.preventDefault(); });
+
+        $('#decussation_of_pyramid_link').mouseover(function(e) {
+            $('#decussation_of_pyramid').mouseover();
+        }).mouseout(function(e) {
+            $('#decussation_of_pyramid').mouseout();
+        }).click(function(e) { e.preventDefault(); });
+
+        $('#spinal_trigeminal_tract_link').mouseover(function(e) {
+            $('#spinal_trigeminal_tract').mouseover();
+        }).mouseout(function(e) {
+            $('#spinal_trigeminal_tract').mouseout();
+        }).click(function(e) { e.preventDefault(); });
+
+        $('#fasciculus_cuneatus_link').mouseover(function(e) {
+            $('#fasciculus_cuneatus').mouseover();
+        }).mouseout(function(e) {
+            $('#fasciculus_cuneatus').mouseout();
+        }).click(function(e) { e.preventDefault(); });
+
+        $('#fasciculus_gracilis_link').mouseover(function(e) {
+            $('#fasciculus_gracilis').mouseover();
+        }).mouseout(function(e) {
+            $('#fasciculus_gracilis').mouseout();
+        }).click(function(e) { e.preventDefault(); });
+
+
+    });</script>
+
+</head>
+<body>
+
+<div class="container">
+
+    <div class="row">
+    <br>
+    <ul class="nav nav-pills">
+        <a href="#" style="text-decoration:none;"><h3>Neuro <span class="label label-default">practical</span></h3></a>
+    </ul>
+    <br>
+    </div>
+
+<!--
+    <div class="row">
+        <h3><em><strong>Where are we?<strong></em></h3>
+    </div>
+-->
+    <div class="row">
+        <div class="col-md-10">
+
+        <table class="table table-striped">
+            <th><td></td><td><em>Description</em></td><td><em>A lesion here would cause...</em></td></th>
+            <tr><td>A</td><td><a id="nucleus_gracilis_link" href="#">Nucleus gracilis</a></td><td></td><td>etc...</td></tr>
+            <tr><td>B</td><td><a id="nucleus_cuneatus_link" href="#">Nucleus cuneatus</a></td><td></td><td></td></tr>
+            <tr><td>C</td><td><a id="spinal_trigeminal_nucleus_link" href="#">Spinal Trigeminal Nucleus</a></td><td></td><td></td></tr>
+            <tr><td>D</td><td><a id="als_link" href="#">ALS</a></td><td></td><td></td></tr>
+            <tr><td>E</td><td><a id="decussation_of_pyramid_link" href="#">Decussation of pyramid</a></td><td></td><td></td></tr>
+            <tr><td>F</td><td><a id="spinal_trigeminal_tract_link" href="#">Spinal Trigeminal tract</a></td><td></td><td></td></tr>
+            <tr><td>G</td><td><a id="fasciculus_cuneatus_link" href="#">Fasciculus cuneatus</a></td><td></td><td></td></tr>
+            <tr><td>H</td><td><a id="fasciculus_gracilis_link" href="#">Fasciculus gracilis</a></td><td></td><td></td></tr>
+        </table>
+
+        </div>
+    </div>
+    <div class="row">
+        <img src="img/s01.png"
+             class="slide1"
+             usemap="#slide1">
+    </div>
+</div>
+
+<map name="slide1">
+<area href="#"
+      shape="poly"
+      coords="779,197,774,225,790,250,708,341,704,242,727,206,758,198,777,196,752,223"
+      data-maphilight='{"strokeColor":"000000","strokeWidth":5,"fillColor":"ffff00","fillOpacity":0.33}'
+      alt="Nucleus Gracilis"
+      id="nucleus_gracilis" />
+<area href="#"
+      shape="poly"
+      coords="849,322,885,331,899,359,885,398,829,429,808,411,807,384,818,350,846,321"
+      data-maphilight='{"strokeColor":"000000","strokeWidth":5,"fillColor":"ffff00","fillOpacity":0.33}'
+      alt="Nucleus Cuneatus"
+      id="nucleus_cuneatus"/>
+<area href="#"
+      shape="poly"
+      coords="1114,459,1163,432,1180,457,1178,481,1198,499,1186,531,1122,571,1091,567,1097,543,1115,540,1119,523,1114,509,1114,488,1113,461"
+      data-maphilight='{"strokeColor":"000000","strokeWidth":5,"fillColor":"ffff00","fillOpacity":0.33}'
+      alt="Spinal Trigeminal Nucleus"
+      id="spinal_trigeminal_nucleus"/>
+<area href="#"
+      shape="poly"
+      coords="510,199,545,172,582,162,610,159,611,163,628,159,673,185,677,395,646,410,598,361,509,201"
+      data-maphilight='{"strokeColor":"000000","strokeWidth":5,"fillColor":"ffff00","fillOpacity":0.33}'
+      alt="Fasciculus Gracilis"
+      id="fasciculus_gracilis"/>
+<area href="#"
+      shape="poly"
+      coords="496,207,638,414,559,491,509,496,474,466,437,469,414,430,334,345,341,310,356,292,377,289,379,272,398,263,409,269,416,246,453,216,471,217,480,205,492,206"
+      data-maphilight='{"strokeColor":"000000","strokeWidth":5,"fillColor":"ffff00","fillOpacity":0.33}'
+      alt="Fasciculus Cuneatus"
+      id="fasciculus_cuneatus"/>
+<area href="#"
+      shape="poly"
+      coords="271,570,199,566,205,504,233,442,261,407,302,358,328,346,369,376,387,401,333,398,299,409,262,465,264,552,269,570,266,565,267,567"
+      data-maphilight='{"strokeColor":"000000","strokeWidth":5,"fillColor":"ffff00","fillOpacity":0.33}'
+      alt="Spinal Trigeminal Tract"
+      id="spinal_trigeminal_tract"/>
+<area href="#"
+      shape="poly"
+      coords="604,629,658,590,700,585,765,588,797,631,893,845,989,917,1045,972,1042,996,1005,1029,945,1066,883,1099,839,1106,801,1125,746,1111,727,1092,708,1048,674,1025,651,1035,632,1055,608,1076,554,1079,471,1070,421,1052,405,1019,397,992,377,944,377,922,421,874,466,827,523,776,550,739,567,681,584,649"
+      data-maphilight='{"strokeColor":"000000","strokeWidth":5,"fillColor":"ffff00","fillOpacity":0.33}'
+      alt="Pyramidal Descussation"
+      id="decussation_of_pyramid">
+<area href="#"
+      shape="poly"
+      coords="1017,790,1118,830,1187,675,1085,629,1076,626,1020,789,1018,790,1018,789"
+      data-maphilight='{"strokeColor":"000000","strokeWidth":5,"fillColor":"ffff00","fillOpacity":0.33}'
+      alt="ALS"
+      id="als">
+</map>
+
+</body>
+</html>
